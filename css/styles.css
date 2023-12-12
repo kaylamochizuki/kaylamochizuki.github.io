@@ -1,0 +1,122 @@
+
+#title {
+    color: #FFFAFA;
+    font-family: 'Georgia', 'serif';
+}
+
+.container-fluid{
+    padding: 3% 5%;
+    font-family: 'Georgia', 'serif';
+}
+h1 {
+    font-family: 'Georgia', 'serif';
+    font-weight: bold;
+    font-size: 3rem;
+    line-height: 1.5;
+    color: #eb7ba0;
+}
+
+h3 {
+    font-family: 'Georgia', 'serif';
+    font-weight: bold;
+    color:rgb(187, 93, 125);
+
+}
+
+h2 {
+    font-family: 'Georgia', 'serif';
+    font-weight: bold;
+    font-size: 1.5;
+    color:rgb(187, 93, 125);
+}
+
+h4 {
+    font-family: 'Georgia', 'serif';
+    color:rgb(187, 93, 125);
+}
+
+h6 {
+    font-family: 'Georgia', 'serif';
+    color:rgb(187, 93, 125);
+}
+
+p {
+    color: #DB7093;
+    font-family: 'Georgia', 'serif';
+}
+
+.colors {
+    background-color: #ffd8de;
+}
+
+.color {
+    color:rgb(187, 93, 125);
+}
+/* Navigation bar */
+.navbar {
+    padding: 0 0 4.5rem;
+}
+.navbar-brand {
+    font-family: 'Georgia', 'serif';
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.navbar-item {
+    padding: 0 18px;
+}
+
+.navbar-link {
+    font-family: 'Georgia', 'serif';
+    font-size: 1.2rem;
+}
+
+.download-button {
+    margin: 5% 3% 5% 0;
+    color: #eb7ba0;
+}
+
+#features {
+    padding: 5% 5%;
+    background-color: #FFC0CB;
+
+}
+
+.feature-box {
+    text-align: center;
+    padding: 5%;
+}
+
+#showcase {   
+    text-align: center;
+    background-color: #FFC0CB;
+}
+
+.carousel-item {
+    padding: 7% 15%;
+}
+
+#project {
+    padding: 50px;
+    background-color: #FFF0F5;
+}
+
+.project-column {
+    padding: 2% 1%;
+}
+
+#footer {
+    padding: 1% 1%;
+    text-align: center;
+}
+
+
+@media (max-width: 1028px) {
+    #title {
+        text-align: center;
+    }
+    .title-image {
+        position: static;
+        transform: rotate(0deg);
+    }
+}
